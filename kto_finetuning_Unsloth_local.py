@@ -9,7 +9,7 @@ save_merged_model_name = "/your/local/merged/model"
 
 
 model, tokenizer = FastLanguageModel.from_pretrained(
-    #model_name = "unsloth/Qwen2-0.5B-Instruct", # Choose ANY! eg mistralai/Mistral-7B-Instruct-v0.2
+    model_name = "unsloth/Qwen2-0.5B-Instruct", # Choose ANY! eg mistralai/Mistral-7B-Instruct-v0.2
     max_seq_length = max_seq_length,
     dtype = dtype,
     load_in_4bit = load_in_4bit,
